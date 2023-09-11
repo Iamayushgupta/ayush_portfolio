@@ -14,16 +14,16 @@ function Footer() {
         <Container fluid className="footer">
             <Row>
                 <Col md="4" className="footer-copywright">
-                    <h3> Designed and Developed by Paras Chawla </h3>{" "}
+                    <h3>  </h3>{" "}
                 </Col>{" "}
-                <Col md="4" className="footer-copywright">
+                {/* <Col md="4" className="footer-copywright">
                     <h3> Copyright© {year} paras </h3>{" "}
-                </Col>{" "}
-                <Col md="4" className="footer-body">
+                </Col>{" "} */}
+                {/* <Col md="4" className="footer-body">
                     <ul className="footer-icons">
                         <li className="social-icons">
                             <a
-                                href="https://github.com/Paraschawla21"
+                                href="https://github.com/Iamayushgupta"
                                 style={{ color: "white" }}
                                 target="_blank"
                                 rel="noopener noreferrer"
@@ -33,7 +33,7 @@ function Footer() {
                         </li>{" "}
                         <li className="social-icons">
                             <a
-                                href="https://twitter.com/Paras_chawla_21"
+                                href="https://twitter.com/ayushgupta71011"
                                 style={{ color: "white" }}
                                 target="_blank"
                                 rel="noopener noreferrer"
@@ -43,7 +43,7 @@ function Footer() {
                         </li>{" "}
                         <li className="social-icons">
                             <a
-                                href="https://www.linkedin.com/in/paras-chawla-00a262208/"
+                                href="https://www.linkedin.com/in/ayush-gupta-ab0996228/"
                                 style={{ color: "white" }}
                                 target="_blank"
                                 rel="noopener noreferrer"
@@ -53,7 +53,7 @@ function Footer() {
                         </li>{" "}
                         <li className="social-icons">
                             <a
-                                href="https://www.instagram.com/paras_chawla.21/"
+                                href="https://www.instagram.com/ayush.gupta.11/"
                                 style={{ color: "white" }}
                                 target="_blank"
                                 rel="noopener noreferrer"
@@ -62,7 +62,7 @@ function Footer() {
                             </a>{" "}
                         </li>{" "}
                     </ul>{" "}
-                </Col>{" "}
+                </Col>{" "} */}
             </Row>{" "}
         </Container>
     );

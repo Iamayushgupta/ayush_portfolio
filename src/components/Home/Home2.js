@@ -16,42 +16,35 @@ function Home2() {
                 <Row>
                     <Col md={8} className="home-about-description">
                         <h1 style={{ fontSize: "2.6em" }}>
-                            LET ME <span className="purple"> INTRODUCE </span>{" "}
-                            MYSELF{" "}
+                            My <span className="purple"> Achievements </span>{" "}{" "}
                         </h1>{" "}
                         <p className="home-about-body">
-                            I fell in love with programming when I started to
-                            explore the various languages that were used in Web
-                            Development. <br />
-                            <br /> I am fluent in classics like{" "}
+                            I am a 5⭐ coder
                             <i>
-                                <b className="purple"> C++ and React.js </b>{" "}
+                                <b className="purple"> @Codechef </b>{" "}
+                            </i>{" "}
+                            <br></br>
+                            <br /> I am Specialist{" "}
+                            <i>
+                                <b className="purple"> @Codeforces </b>{" "}
                             </i>{" "}
                             <br />
                             <br />
-                            My field of Interest includes building new{" "}
+                            Solved over 900+ problems{" "}
                             <i>
                                 <b className="purple">
                                     {" "}
-                                    Web Technologies and Products{" "}
+                                    @Leetcode{" "}
                                 </b>{" "}
-                                and also in areas related to{" "}
-                                <b className="purple"> Blockchain. </b>{" "}
                             </i>{" "}
                             <br />
                             <br />
-                            Whenever possible, I also integrate my passion for
-                            designing and developing products with{" "}
-                            <b className="purple"> React.js </b> and{" "}
+                            {" "}
+                            I have expertise in 
                             <i>
-                                <b className="purple">
-                                    {" "}
-                                    Modern Javascript Library and Frameworks{" "}
+                                <b className="purple">{" "}
+                                    Nodejs, MongoDB, Express and Mongoose
                                 </b>{" "}
-                            </i>{" "}
-                            like{" "}
-                            <i>
-                                <b className="purple"> Express and Node.js </b>{" "}
                             </i>{" "}
                         </p>{" "}
                     </Col>{" "}
@@ -75,7 +68,7 @@ function Home2() {
                         <ul className="home-about-social-links">
                             <li className="social-icons">
                                 <a
-                                    href="https://github.com/Paraschawla21"
+                                    href="https://github.com/Iamayushgupta"
                                     target="_blank"
                                     rel="noreferrer"
                                     className="icon-colour  home-social-icons"
@@ -85,7 +78,7 @@ function Home2() {
                             </li>{" "}
                             <li className="social-icons">
                                 <a
-                                    href="https://twitter.com/Paras_chawla_21"
+                                    href="https://twitter.com/ayush71011"
                                     target="_blank"
                                     rel="noreferrer"
                                     className="icon-colour  home-social-icons"
@@ -95,7 +88,7 @@ function Home2() {
                             </li>{" "}
                             <li className="social-icons">
                                 <a
-                                    href="https://www.linkedin.com/in/paras-chawla-00a262208/"
+                                    href="https://www.linkedin.com/in/ayush-gupta-ab0996228/"
                                     target="_blank"
                                     rel="noreferrer"
                                     className="icon-colour  home-social-icons"
@@ -105,7 +98,7 @@ function Home2() {
                             </li>{" "}
                             <li className="social-icons">
                                 <a
-                                    href="https://www.instagram.com/paras_chawla.21/"
+                                    href="https://www.instagram.com/ayush.gupta.11/"
                                     target="_blank"
                                     rel="noreferrer"
                                     className="icon-colour home-social-icons"

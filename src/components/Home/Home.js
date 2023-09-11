@@ -31,7 +31,7 @@ function Home() {
                                 I'M
                                 <strong className="main-name">
                                     {" "}
-                                    PARAS CHAWLA
+                                    AYUSH GUPTA
                                 </strong>
                             </h1>
 

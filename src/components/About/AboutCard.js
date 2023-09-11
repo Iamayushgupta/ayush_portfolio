@@ -9,38 +9,33 @@ function AboutCard() {
                 <blockquote className="blockquote mb-0">
                     <p style={{ textAlign: "justify" }}>
                         Hi everyone, I'm{" "}
-                        <span className="purple"> Paras Chawla </span>
+                        <span className="purple"> Ayush Gupta </span>
                         from{" "}
                         <span className="purple">
                             {" "}
-                            Rudrapur, Uttarakhand, India.{" "}
+                            Mumbai, India.{" "}
                         </span>{" "}
-                        <br /> Currently, I am a final year student pursuing
-                        Bachelor of Technology in Computer Science with
-                        specialization in Blockchain Technology from VIT
-                        University (Vellore). <br /> I am an aspiring engineer
-                        interested in Web Development and Design. Primarily, I
-                        am a Front End Developer. <br />
+                        <br />I am a final year student pursuing
+                        Bachelor of Technology in Computer Science from VIT Vellore. <br /> I am an aspiring engineer
+                        interested in Backend Development, Problem Solving and Competitive Coding.<br />
                         <br />
-                        In my spare time, I love to spend my time in activities
-                        like:
+                        In my spare time, I 
                     </p>{" "}
                     <ul>
                         <li className="about-activity">
-                            <ImPointRight /> Watching Movies{" "}
+                            <ImPointRight /> Watch movies.{" "}
                         </li>{" "}
                         <li className="about-activity">
-                            <ImPointRight /> Sports like Volleyball and
-                            Badminton{" "}
+                            <ImPointRight /> Play sports like Badminton, Football, Table Tennis, Basketball.{" "}
                         </li>{" "}
                         <li className="about-activity">
-                            <ImPointRight /> Travelling{" "}
+                            <ImPointRight /> Go out on vacation.{" "}
                         </li>{" "}
                     </ul>{" "}
                     <p style={{ color: "rgb(155 126 172)" }}>
-                        "Strive to build things that make a difference!"{" "}
+                        "Trade what you want the most for what you want at the moment"{" "}
                     </p>{" "}
-                    <footer className="blockquote-footer"> Paras </footer>{" "}
+                    <footer className="blockquote-footer"> Ayush </footer>{" "}
                 </blockquote>{" "}
             </Card.Body>{" "}
         </Card>
