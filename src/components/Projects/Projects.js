@@ -4,10 +4,10 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import school from "../../Assets/Projects/school-erp.png";
 import chotaDhobi from "../../Assets/Projects/chotaDhobi.png";
-import studentList from "../../Assets/Projects/studentList.png";
-import dashboard from "../../Assets/Projects/dashboard.png";
-import keeper from "../../Assets/Projects/keeper.png";
-import todo from "../../Assets/Projects/todo.png";
+import reco from "../../Assets/Projects/reco.png";
+import weather from "../../Assets/Projects/weather.png";
+import task from "../../Assets/Projects/task.png";
+import notes from "../../Assets/Projects/notes.png";
 
 function Projects() {
     return (
@@ -25,11 +25,11 @@ function Projects() {
                 >
                     <Col md={4} className="project-card">
                         <ProjectCard
-                            imgPath={school}
-                            title="School ERP"
-                            description="A simple React based website which basically is a child admission form. Filling all the details about the child and his / her parents and some other details, all the form data will be posted to the backend server through an Application Programming Interface (API)."
-                            ghLink="https://github.com/Paraschawla21/school_erp"
-                            demoLink="https://school-erp-ruddy.vercel.app/"
+                            imgPath={reco}
+                            title="Recommendation App"
+                            description="Designed and Developed an App where user could effortlessly share and access personalised dish recommendations within restaurants."
+                            ghLink="https://github.com/Iamayushgupta/recommendation-app"
+                            // demoLink="https://school-erp-ruddy.vercel.app/"
                         />
                     </Col>{" "}
                     {/* <Col md={4} className="project-card">
@@ -42,30 +42,30 @@ function Projects() {
                                             </Col>{" "} */}{" "}
                     <Col md={4} className="project-card">
                         <ProjectCard
-                            imgPath={chotaDhobi}
-                            title="Chota Dhobi"
-                            description="Designed and developed a Laundry Solutions website named Chota Dhobi in which we can give clothes for washing. HTML, CSS and Bootstrap was used for designing the website, Javascript for the functioning and validation, and PHP for handling the Data and sending the data to the backend. Also, PHP mailer is used, which instantly sends a mail whenever you register."
-                            ghLink="https://github.com/Paraschawla21/chota_dhobi"
+                            imgPath={weather}
+                            title="Weather App"
+                            description="Developed an Application where a user could enter a location and get the current weather."
+                            ghLink="https://github.com/Iamayushgupta/weather-app"
                         />
                     </Col>{" "}
                     <Col md={4} className="project-card">
                         <ProjectCard
-                            imgPath={studentList}
-                            title="Demo Project to learn MERN"
-                            description="A basic MERN Stack Web application. By entering the student details we can store them at the localhost backend server by using a post request. Moreover, displayed the stored student records using an API by a get request. Also, we can edit the details (put request) and delete the details (delete request)."
-                            ghLink="https://github.com/Paraschawla21/MERNStack_StudentList_Project"
-                            demoLink="https://mern-stack-student-list-project.vercel.app/"
+                            imgPath={task}
+                            title="Task Manager"
+                            description="Designed and developed a user-friendly task management application, empowering users to effectively organize their tasks."
+                            ghLink="https://github.com/Iamayushgupta/task-manager"
+                            // demoLink="https://mern-stack-student-list-project.vercel.app/"
                         />
                     </Col>{" "}
                     <Col md={4} className="project-card">
                         <ProjectCard
-                            imgPath={dashboard}
-                            title="Covid Dashboard"
-                            description="A Covid Dashboard website built with React.js. All the covid data which were present online have been integrated through an API and have been displayed in a table format. Also, React charts have been used."
-                            ghLink="https://github.com/Paraschawla21/covid_dashboard"
+                            imgPath={notes}
+                            title="Notes App"
+                            description="A CLI based notes taking app in which user provides the title and body of the note and then its gets stored in the JSON File."
+                            ghLink="https://github.com/Iamayushgupta/notes-app"
                         />
                     </Col>{" "}
-                    <Col md={4} className="project-card">
+                    {/* <Col md={4} className="project-card">
                         <ProjectCard
                             imgPath={keeper}
                             title="Keeper App"
@@ -73,8 +73,8 @@ function Projects() {
                             ghLink="https://github.com/Paraschawla21/react-project-keeper-app"
                             demoLink="https://keeper-app-murex.vercel.app/"
                         />
-                    </Col>{" "}
-                    <Col md={4} className="project-card">
+                    </Col>{" "} */}
+                    {/* <Col md={4} className="project-card">
                         <ProjectCard
                             imgPath={todo}
                             title="To-Do List"
@@ -82,7 +82,7 @@ function Projects() {
                             ghLink="https://github.com/Paraschawla21/react-project-to-do-list-app-"
                             demoLink="https://react-project-to-do-list-app.vercel.app/"
                         />
-                    </Col>{" "}
+                    </Col>{" "} */}
                 </Row>{" "}
             </Container>{" "}
         </Container>
